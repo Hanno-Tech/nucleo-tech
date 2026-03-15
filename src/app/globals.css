@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #a855f7;
+  --background-light: #f7f5f8;
+  --background-dark: #191022;
+}
+
+@theme {
+  --color-primary: var(--primary);
+  --color-background-light: var(--background-light);
+  --color-background-dark: var(--background-dark);
+  --font-display: "Inter", sans-serif;
+}
+
+body {
+  color: #1e293b;
+  background: var(--background-light);
+  font-family: var(--font-display);
+}
+
+@utility text-balance {
+  text-wrap: balance;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
