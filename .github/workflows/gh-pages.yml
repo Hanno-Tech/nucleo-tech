@@ -21,6 +21,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Ensure output directory exists
+        run: mkdir -p out
+
       - name: Build Next.js
         run: npm run build
 
