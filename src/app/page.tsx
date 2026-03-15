@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 
 export default function Home() {
@@ -19,9 +21,12 @@ export default function Home() {
               <nav className="flex items-center gap-8">
                 <a className="text-slate-700 hover:text-primary transition-colors text-sm font-medium" href="#software-house">Consultoria</a>
                 <a className="text-slate-700 hover:text-primary transition-colors text-sm font-medium" href="#plataforma">Plataforma</a>
-                <a className="text-slate-700 hover:text-primary transition-colors text-sm font-medium" href="#">Cases</a>
+                {/* <a className="text-slate-700 hover:text-primary transition-colors text-sm font-medium" href="#">Cases</a> */}
               </nav>
-              <button className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-6 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/90 transition-colors shadow-lg shadow-primary/20">
+              <button
+                className="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-6 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/90 transition-colors shadow-lg shadow-primary/20"
+                onClick={() => window.open('https://wa.me/5548996536876?text=Olá! Gostaria de falar com um especialista.', '_blank')}
+              >
                 Falar com Especialista
               </button>
             </div>
@@ -53,13 +58,16 @@ export default function Home() {
                   </p>
 
                   <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 w-full sm:w-auto">
-                    <button className="bg-primary text-white w-full sm:w-auto px-8 py-4 rounded-xl font-bold text-lg hover:bg-primary/90 transition-colors shadow-lg shadow-primary/30 flex items-center justify-center gap-2 group">
+                    <button
+                      className="bg-primary text-white w-full sm:w-auto px-8 py-4 rounded-xl font-bold text-lg hover:bg-primary/90 transition-colors shadow-lg shadow-primary/30 flex items-center justify-center gap-2 group"
+                      onClick={() => window.open('https://wa.me/5548996536876?text=Olá! Gostaria de agendar um diagnóstico.', '_blank')}
+                    >
                       Agendar Diagnóstico
                       <span className="material-symbols-outlined text-sm group-hover:translate-x-1 transition-transform">arrow_forward</span>
                     </button>
-                    <button className="bg-white border-2 border-slate-200 text-slate-700 w-full sm:w-auto px-8 py-4 rounded-xl font-bold text-lg hover:border-slate-300 hover:bg-slate-50 transition-colors flex items-center justify-center gap-2">
+                    {/* <button className="bg-white border-2 border-slate-200 text-slate-700 w-full sm:w-auto px-8 py-4 rounded-xl font-bold text-lg hover:border-slate-300 hover:bg-slate-50 transition-colors flex items-center justify-center gap-2">
                       Conhecer Plataforma
-                    </button>
+                    </button> */}
                   </div>
                 </div>
 
@@ -236,12 +244,12 @@ export default function Home() {
                         </div>
                       </div>
 
-                      <div className="pt-4">
+                      {/* <div className="pt-4">
                         <button className="flex items-center gap-2 text-primary font-bold group">
                           Ver demonstração da plataforma
                           <span className="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
                         </button>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </div>
@@ -270,7 +278,7 @@ export default function Home() {
 
           {/* Footer */}
           <footer className="bg-white border-t border-slate-100 py-16 px-6 md:px-20 mt-12">
-            <div className="max-w-[1280px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
+            {/* <div className="max-w-[1280px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
               <div className="col-span-1 md:col-span-1">
                 <div className="flex items-center gap-2 text-primary mb-6">
                   <div className="size-6">
@@ -311,14 +319,14 @@ export default function Home() {
                   <button className="bg-primary text-white p-2 rounded-lg px-4 font-bold text-sm">OK</button>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             <div className="max-w-[1280px] mx-auto border-t border-slate-100 mt-16 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-slate-400 text-xs">
               <p>© 2026 Nucleo IA. Todos os direitos reservados.</p>
-              <div className="flex gap-8">
+              {/* <div className="flex gap-8">
                 <a className="hover:text-slate-600 transition-colors" href="#">Termos de Uso</a>
                 <a className="hover:text-slate-600 transition-colors" href="#">Privacidade</a>
-              </div>
+              </div> */}
             </div>
           </footer>
         </div>
