@@ -5,7 +5,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Nucleo Tech - Landing Page",
+  title: "Nucleo IA - Home Page",
   description: "Acelerando a transformação digital através da Inteligência Artificial aplicada e análise estratégica de dados.",
 };
 

@@ -13,7 +13,7 @@ export default function Home() {
                   <path d="M24 45.8096C19.6865 45.8096 15.4698 44.5305 11.8832 42.134C8.29667 39.7376 5.50128 36.3314 3.85056 32.3462C2.19985 28.361 1.76794 23.9758 2.60947 19.7452C3.451 15.5145 5.52816 11.6284 8.57829 8.5783C11.6284 5.52817 15.5145 3.45101 19.7452 2.60948C23.9758 1.76795 28.361 2.19986 32.3462 3.85057C36.3314 5.50129 39.7376 8.29668 42.134 11.8833C44.5305 15.4698 45.8096 19.6865 45.8096 24L24 24L24 45.8096Z" fill="currentColor"></path>
                 </svg>
               </div>
-              <h2 className="text-slate-900 text-xl font-bold leading-tight tracking-tight">Nucleo Tech</h2>
+              <h2 className="text-slate-900 text-xl font-bold leading-tight tracking-tight">Nucleo IA</h2>
             </div>
             <div className="hidden md:flex flex-1 justify-end gap-8 items-center">
               <nav className="flex items-center gap-8">
@@ -60,18 +60,6 @@ export default function Home() {
                     <button className="bg-white border-2 border-slate-200 text-slate-700 w-full sm:w-auto px-8 py-4 rounded-xl font-bold text-lg hover:border-slate-300 hover:bg-slate-50 transition-colors flex items-center justify-center gap-2">
                       Conhecer Plataforma
                     </button>
-                  </div>
-
-                  <div className="mt-12 flex items-center gap-6 pt-8 border-t border-slate-200 w-full max-w-md">
-                    <div className="flex -space-x-3">
-                      <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=100&auto=format&fit=crop" alt="User" className="w-10 h-10 rounded-full border-2 border-white object-cover" />
-                      <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&w=100&auto=format&fit=crop" alt="User" className="w-10 h-10 rounded-full border-2 border-white object-cover" />
-                      <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=100&auto=format&fit=crop" alt="User" className="w-10 h-10 rounded-full border-2 border-white object-cover" />
-                    </div>
-                    <div className="text-sm font-medium text-slate-600 leading-snug">
-                      <span className="font-bold text-slate-900">+50 empresas</span><br/>
-                      já transformaram sua operação
-                    </div>
                   </div>
                 </div>
 
@@ -137,7 +125,7 @@ export default function Home() {
             </section>
 
             {/* Software House Section */}
-            <section className="py-24 px-6 md:px-20 bg-white" id="software-house">
+            <section className="py-12 px-6 md:px-20 bg-white" id="software-house">
               <div className="max-w-[1280px] mx-auto">
                 <div className="text-center max-w-3xl mx-auto mb-16">
                   <h2 className="text-primary font-bold text-sm uppercase tracking-widest mb-3">Software House de IA</h2>
@@ -268,7 +256,7 @@ export default function Home() {
 
                 <div className="relative z-10 max-w-xl text-center md:text-left">
                   <h2 className="text-3xl md:text-5xl font-black mb-6">Pronto para liderar a era da IA?</h2>
-                  <p className="text-white/90 text-lg font-medium">Junte-se a dezenas de empresas que já otimizaram seus fluxos de trabalho com a Nucleo Tech.</p>
+                  <p className="text-white/90 text-lg font-medium">Junte-se a dezenas de empresas que já otimizaram seus fluxos de trabalho com a Nucleo IA.</p>
                 </div>
 
                 <div className="relative z-10 shrink-0">
@@ -290,7 +278,7 @@ export default function Home() {
                       <path d="M24 45.8096C19.6865 45.8096 15.4698 44.5305 11.8832 42.134C8.29667 39.7376 5.50128 36.3314 3.85056 32.3462C2.19985 28.361 1.76794 23.9758 2.60947 19.7452C3.451 15.5145 5.52816 11.6284 8.57829 8.5783C11.6284 5.52817 15.5145 3.45101 19.7452 2.60948C23.9758 1.76795 28.361 2.19986 32.3462 3.85057C36.3314 5.50129 39.7376 8.29668 42.134 11.8833C44.5305 15.4698 45.8096 19.6865 45.8096 24L24 24L24 45.8096Z" fill="currentColor"></path>
                     </svg>
                   </div>
-                  <span className="text-slate-900 font-bold text-lg">Nucleo Tech</span>
+                  <span className="text-slate-900 font-bold text-lg">Nucleo IA</span>
                 </div>
                 <p className="text-slate-500 text-sm leading-relaxed">Acelerando a transformação digital através da Inteligência Artificial aplicada e análise estratégica de dados.</p>
               </div>
@@ -326,7 +314,7 @@ export default function Home() {
             </div>
 
             <div className="max-w-[1280px] mx-auto border-t border-slate-100 mt-16 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-slate-400 text-xs">
-              <p>© 2024 Nucleo Tech. Todos os direitos reservados.</p>
+              <p>© 2026 Nucleo IA. Todos os direitos reservados.</p>
               <div className="flex gap-8">
                 <a className="hover:text-slate-600 transition-colors" href="#">Termos de Uso</a>
                 <a className="hover:text-slate-600 transition-colors" href="#">Privacidade</a>
